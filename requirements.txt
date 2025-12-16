@@ -1,0 +1,41 @@
+
+# Requirements for AI Image Detection
+# Python 3.10+ required
+
+# Core Deep Learning Framework
+torch>=2.0.0
+torchvision>=0.15.0
+
+# Hugging Face Ecosystem
+transformers>=4.30.0
+huggingface-hub>=0.14.1,<1.0
+
+# Computer Vision
+Pillow>=9.0.0
+
+# Machine Learning & Scientific Computing
+scikit-learn>=1.3.0
+scipy>=1.10.0
+numpy>=1.24.0
+pandas>=2.0.0
+
+# TabPFN Classifier
+tabpfn>=6.0.0
+
+# Neural Network Utilities
+einops>=0.7.0
+
+# Data Processing & Utilities
+joblib>=1.3.0
+tqdm>=4.65.0
+click>=8.0.0
+pydantic>=2.0.0
+PyYAML>=6.0.0
+
+# File & Network Operations
+requests>=2.31.0
+fsspec>=2023.1.0,<=2025.3.0
+
+#visualization
+matplotlib
+seaborn
