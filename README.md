@@ -117,6 +117,18 @@ sbatch slurm/run_tabpfn.sh
 
 **Results** are saved in `results_tabpfn/{mode}/tabpfn/`
 
+### 4. Checkpoints
+
+TabPFN checkpoints are available for download:
+
+**📦 [Download Checkpoints](https://drive.google.com/drive/folders/1P7a4wuVAn1xLPpTYdO4TDbqy1oXHd3Ga?usp=drive_link)**
+
+Available models:
+- **Multi-generator models** (6 Checkpoints): Trained on all generators for each training size (625, 300, 150, 75, 30, 25)
+- **Single-generator models** (48 Checkpoints): Trained separately on each of 8 generators (ADM, BigGAN, Glide, Midjourney, SD1.4, SD1.5, VQDM, Wukong) for each training size
+
+**Total: 54  Checkpoints**
+
 ## Visualization
 
 ### PCA Visualization
