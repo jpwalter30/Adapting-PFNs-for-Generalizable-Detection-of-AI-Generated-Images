@@ -1,0 +1,26 @@
+{
+    "mode": "single-single",
+    "train_size": 625,
+    "train_gen": "BigGAN",
+    "test_gen": "BigGAN",
+    "seed": 42,
+    "model_type": "LatentTrajectoryClassifier",
+    "clip_type": "convnext_base_in22k",
+    "checkpoint_epoch": 12,
+    "checkpoint_best_acc": 0.9945454545454545,
+    "checkpoint_best_auc": 0.9992702479338843,
+    "metrics": {
+        "accuracy": 0.9882285714285715,
+        "precision": 0.9953617810760668,
+        "recall": 0.9810285714285715,
+        "f1": 0.988143202486474,
+        "roc_auc": 0.9993789910204082,
+        "ap": 0.9992903140157127,
+        "best_accuracy": 0.9947428571428572,
+        "best_threshold": 0.02,
+        "real_accuracy": 0.9954285714285714,
+        "fake_accuracy": 0.9810285714285715,
+        "n_test": 35000
+    },
+    "timestamp": "2025-12-14T14:52:04.779567"
+}

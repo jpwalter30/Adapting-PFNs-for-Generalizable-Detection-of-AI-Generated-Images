@@ -1,0 +1,26 @@
+{
+    "mode": "single-single",
+    "train_size": 300,
+    "train_gen": "Midjourney",
+    "test_gen": "stable_diffusion_v_1_5",
+    "seed": 42,
+    "model_type": "LatentTrajectoryClassifier",
+    "clip_type": "convnext_base_in22k",
+    "checkpoint_epoch": 14,
+    "checkpoint_best_acc": 0.6959090909090909,
+    "checkpoint_best_auc": 0.748592561983471,
+    "metrics": {
+        "accuracy": 0.5733714285714285,
+        "precision": 0.7428139183055976,
+        "recall": 0.22445714285714286,
+        "f1": 0.34474284711251535,
+        "roc_auc": 0.6715527314285714,
+        "ap": 0.6719562364228321,
+        "best_accuracy": 0.6170285714285715,
+        "best_threshold": 0.01,
+        "real_accuracy": 0.9222857142857143,
+        "fake_accuracy": 0.22445714285714286,
+        "n_test": 35000
+    },
+    "timestamp": "2025-12-14T16:31:50.700970"
+}

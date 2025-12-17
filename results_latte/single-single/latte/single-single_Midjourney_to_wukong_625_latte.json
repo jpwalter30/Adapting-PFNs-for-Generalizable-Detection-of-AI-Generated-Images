@@ -1,0 +1,26 @@
+{
+    "mode": "single-single",
+    "train_size": 625,
+    "train_gen": "Midjourney",
+    "test_gen": "wukong",
+    "seed": 42,
+    "model_type": "LatentTrajectoryClassifier",
+    "clip_type": "convnext_base_in22k",
+    "checkpoint_epoch": 16,
+    "checkpoint_best_acc": 0.7868181818181819,
+    "checkpoint_best_auc": 0.8638842975206611,
+    "metrics": {
+        "accuracy": 0.5744,
+        "precision": 0.8798133022170361,
+        "recall": 0.17234285714285713,
+        "f1": 0.2882262996941896,
+        "roc_auc": 0.70354048,
+        "ap": 0.7219675057296706,
+        "best_accuracy": 0.6205714285714286,
+        "best_threshold": 0.01,
+        "real_accuracy": 0.9764571428571429,
+        "fake_accuracy": 0.17234285714285713,
+        "n_test": 35000
+    },
+    "timestamp": "2025-12-14T15:17:27.357871"
+}

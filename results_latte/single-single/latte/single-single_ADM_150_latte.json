@@ -1,0 +1,26 @@
+{
+    "mode": "single-single",
+    "train_size": 150,
+    "train_gen": "ADM",
+    "test_gen": "ADM",
+    "seed": 42,
+    "model_type": "LatentTrajectoryClassifier",
+    "clip_type": "convnext_base_in22k",
+    "checkpoint_epoch": 11,
+    "checkpoint_best_acc": 0.9390909090909091,
+    "checkpoint_best_auc": 0.9745673553719009,
+    "metrics": {
+        "accuracy": 0.8594285714285714,
+        "precision": 0.9551374819102749,
+        "recall": 0.7542857142857143,
+        "f1": 0.842911877394636,
+        "roc_auc": 0.9754919706122448,
+        "ap": 0.9661692312281218,
+        "best_accuracy": 0.9371428571428572,
+        "best_threshold": 0.03,
+        "real_accuracy": 0.9645714285714285,
+        "fake_accuracy": 0.7542857142857143,
+        "n_test": 35000
+    },
+    "timestamp": "2025-12-14T16:05:42.275369"
+}
