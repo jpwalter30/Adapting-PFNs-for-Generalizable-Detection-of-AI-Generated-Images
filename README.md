@@ -289,9 +289,3 @@ Each JSON file contains:
     }
 }
 ```
-
-## Acknowledgments
-
-- DINOv3: [Meta AI Research](https://github.com/facebookresearch/dinov3)
-- TabPFN: [Prior-Data Fitted Networks](https://github.com/automl/TabPFN)
-- GenImage Dataset: [AI-Generated Image Detection](https://github.com/GenImage/GenImage)
